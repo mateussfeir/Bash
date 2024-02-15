@@ -1,5 +1,10 @@
 #!/bin/bash
-
+# Write a bash script that simulates a lottery game by choosing a random number between 1 and
+# 7. The script should prompt the user to guess the number, providing up to two attempts. After
+# the first guess, if the guess is incorrect, the script should indicate whether the winning number
+# is higher or lower than the user's guess. If the user guesses correctly within these two attempts,
+# display "You are a winner!". If the user fails to guess the number correctly after two attempts,
+# display "Try again.".
 while true; do
     attempts=0
     echo "Enter 1 to start or 2 to exit"
